@@ -1,0 +1,4 @@
+spring:
+    
+  jwt:
+    secret: "{cipher}AQAeLnIFhXLNqy/NrWq4FzWmM5bT+Di+MmoEQhcHTB68Hugkcojg1lcw0TlcU5R+csUFdBEAzUEI5GgNDJFimXZ1ioZSuY/Y02T5+gA1R73F0yGxYYeNrFGGtmV7xg8a1i3OqBcimKk9D32IARKPipM4FROOkcnScJn+AZfapvJjoxOmn0c9zmsODKPtvpCDpDYK9z3lpzf7ws/nsjPR4yY9ASJbnhHTfSzeVvOO4TitfRgh2Ut6YcfpJPzUqpq5k/l61hQR+jwe4jFDhUcH//A9Z/rX8c9HNSaJtWDWXeF7W5lxzfHcKtrPFOP4pkJMK/SHrCfSZeGLeX249zv1KKpAR500v1oqZWrgjayhxBcfdFWXVS4/UBIA6WE4rP3EkooRvS5UxS6Wo9UAiQ/pQmy6"
