@@ -11,8 +11,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
-  main:
-    allow-bean-definition-overriding: true
+
   jpa:
     show-sql: true
     hibernate:
