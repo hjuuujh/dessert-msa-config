@@ -2,20 +2,20 @@ spring:
   datasource:
     hikari:
       batch-datasource:
-        jdbc-url: jdbc:mysql://localhost:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
-        # url: jdbc:mysql://dessert-db:3306/member?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+        # jdbc-url: jdbc:mysql://localhost:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+        jdbc-url: jdbc:mysql://dessert-db:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
         password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
       order-datasource:
-        jdbc-url: jdbc:mysql://localhost:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
-        # url: jdbc:mysql://dessert-db:3306/member?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+        # jdbc-url: jdbc:mysql://localhost:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+        jdbc-url: jdbc:mysql://dessert-db:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
         password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
       member-datasource:
-        jdbc-url: jdbc:mysql://localhost:3306/member?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
-        # url: jdbc:mysql://dessert-db:3306/member?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+        # jdbc-url: jdbc:mysql://localhost:3306/member?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+        jdbc-url: jdbc:mysql://dessert-db:3306/member?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
         driver-class-name: com.mysql.cj.jdbc.Driver
         username: root
         password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
