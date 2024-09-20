@@ -2,23 +2,23 @@ spring:
   datasource:
     hikari:
       batch-datasource:
-        # jdbc-url: jdbc:mysql://localhost:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+        jdbc-url: jdbc:mysql://localhost:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
         # jdbc-url: jdbc:mysql://dessert-db:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
-        jdbc-url: jdbc:mysql://dessert-db.cfm2a6qgmjgw.ap-northeast-2.rds.amazonaws.com:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        # username: root
-        # password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
-        username: admin
-        password: '{cipher}AQBB3uesvhTgWbkiVm4RNp8kqd63ms8cNhCal2332frigni8jnOX6YzsGad0BIQYM0Blag9EENKYKY18YC/OGoPUOAr4DSsN+1JNhls7h9LWGodkAPG4oNgzxTGyQF++b/XjQdgsvfoRhY8xA3Lh76KzK0ciu7MA1683KFOmfJ16AdHndKTeDjPnqx7WUa1CQi0EeZZ3orx4LOKw7dBIcIz+N1Q8iZhteA1vBSl9JdROZ1lKVKC7i0lM4USH/I61OpasAMqholPJpx0YZ56tiBfUL/GnalCYnyNRIQro7QW6NJAF4bRI19uMd5RjRWlpEokuzvDXdKvz3D3bl2CGe5zVJLnECqgqoMTT1ACFn3huTlkgOKztZzohtMxzel1lW+c='
+        username: root
+        password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
+        # jdbc-url: jdbc:mysql://dessert-db.cfm2a6qgmjgw.ap-northeast-2.rds.amazonaws.com:3306/batch?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+        # driver-class-name: com.mysql.cj.jdbc.Driver
+        # username: admin
+        # password: '{cipher}AQBB3uesvhTgWbkiVm4RNp8kqd63ms8cNhCal2332frigni8jnOX6YzsGad0BIQYM0Blag9EENKYKY18YC/OGoPUOAr4DSsN+1JNhls7h9LWGodkAPG4oNgzxTGyQF++b/XjQdgsvfoRhY8xA3Lh76KzK0ciu7MA1683KFOmfJ16AdHndKTeDjPnqx7WUa1CQi0EeZZ3orx4LOKw7dBIcIz+N1Q8iZhteA1vBSl9JdROZ1lKVKC7i0lM4USH/I61OpasAMqholPJpx0YZ56tiBfUL/GnalCYnyNRIQro7QW6NJAF4bRI19uMd5RjRWlpEokuzvDXdKvz3D3bl2CGe5zVJLnECqgqoMTT1ACFn3huTlkgOKztZzohtMxzel1lW+c='
       order-datasource:
-        # jdbc-url: jdbc:mysql://localhost:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
+        jdbc-url: jdbc:mysql://localhost:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&rewriteBatchedStatements=true
         # jdbc-url: jdbc:mysql://dessert-db:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
-        jdbc-url: jdbc:mysql://dessert-db.cfm2a6qgmjgw.ap-northeast-2.rds.amazonaws.com:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        # username: root
-        # password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
-        username: admin
-        password: '{cipher}AQBB3uesvhTgWbkiVm4RNp8kqd63ms8cNhCal2332frigni8jnOX6YzsGad0BIQYM0Blag9EENKYKY18YC/OGoPUOAr4DSsN+1JNhls7h9LWGodkAPG4oNgzxTGyQF++b/XjQdgsvfoRhY8xA3Lh76KzK0ciu7MA1683KFOmfJ16AdHndKTeDjPnqx7WUa1CQi0EeZZ3orx4LOKw7dBIcIz+N1Q8iZhteA1vBSl9JdROZ1lKVKC7i0lM4USH/I61OpasAMqholPJpx0YZ56tiBfUL/GnalCYnyNRIQro7QW6NJAF4bRI19uMd5RjRWlpEokuzvDXdKvz3D3bl2CGe5zVJLnECqgqoMTT1ACFn3huTlkgOKztZzohtMxzel1lW+c='
+        username: root
+        password: '{cipher}AQAeDtv5DcgoyuaEtKp4+VkBHqcMmI21aSV5ShWhfIM6nZVhCNUzxZmLji039e7PbIMXLNgEcc90lnr/tZulZbgCJYdOYoYvV8TaI6GUtK8hEXUxOp64igwn8fUgVXOhHAPnqcfxtLAb6O5YXtX2hYEKTycB+q+ySXnusE2fkNDaHltU3mxYvoMO/WGv+Wn6RvODctdLutn8atYBj179fcN1JPakhpmT2i1NkfoqOnhBQROmwVvbyNwaPI7r0ywB+pp0zJHwnHGUiUD0Dn7qwRW5oq60RXsRC69FAUq2a/XIj8X+TLBF39wlVcUT1ex0luaFoo8fU5sRNEUuK9Q0+UdEt+x+tIlKduFZZhXs3aN0l9vTDNf+EeTTOIJHN9eZMng='
+        # jdbc-url: jdbc:mysql://dessert-db.cfm2a6qgmjgw.ap-northeast-2.rds.amazonaws.com:3306/orders?userSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+        # driver-class-name: com.mysql.cj.jdbc.Driver
+        # username: admin
+        # password: '{cipher}AQBB3uesvhTgWbkiVm4RNp8kqd63ms8cNhCal2332frigni8jnOX6YzsGad0BIQYM0Blag9EENKYKY18YC/OGoPUOAr4DSsN+1JNhls7h9LWGodkAPG4oNgzxTGyQF++b/XjQdgsvfoRhY8xA3Lh76KzK0ciu7MA1683KFOmfJ16AdHndKTeDjPnqx7WUa1CQi0EeZZ3orx4LOKw7dBIcIz+N1Q8iZhteA1vBSl9JdROZ1lKVKC7i0lM4USH/I61OpasAMqholPJpx0YZ56tiBfUL/GnalCYnyNRIQro7QW6NJAF4bRI19uMd5RjRWlpEokuzvDXdKvz3D3bl2CGe5zVJLnECqgqoMTT1ACFn3huTlkgOKztZzohtMxzel1lW+c='
 
   jpa:
     show-sql: true
